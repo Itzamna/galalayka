@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    {% include head.html %}  
+</head>
+
+<!--body-->
+<body>
+	<div id="body-wrapper">
+        
+        <!--header container-->
+        <div id="header-contanier">    
+        
+            <!--header wrapper-->
+            <div id="header" class="center-clear">   
+                     
+                <!--logo-->
+                <div id="logo">
+                </div>
+                <!-- /logo-->
+                
+                <!--banner 468x60-->
+                <div id="banner_468x60">
+                    <img src="../public/template/images/temp/banner_468x60.png" width="468" height="60" alt="banner-468x60" />
+                </div>
+                <!-- /banner 468x60-->                
+                                       
+                <!--header place holder-->
+                <div class="header-place-holder"></div>
+                <!-- /social tabs-->
+                
+                <!--menu-->
+                <ul id="top_menu" class="sf-menu">
+                    <li><a href="/index.html">Главная</a></li>
+                    <li><a href="/kennel.html">О питомнике</a></li>      
+                    <li><a href="/breed.html">О породе</a></li>      
+                    <li><a href="/dogs.html">Наши собаки</a></li>      
+                    <li><a href="/puppies.html">Щенки</a></li>      
+                    <li><a href="/contacts.html">Контакты</a></li>      
+                </ul>
+                <!-- /menu-->
+            </div>
+        </div>
+        <!-- /header wrapper-->
+        
+        <div class="clear20"></div>
+        
+        <!--content container-->
+        <div id="content_container" class="center-clear">
+            
+           <div id="page-content-wrapper">        
+                    <!--content container-->
+                    <div class="center-clear page-content-wrapper">
+
+                        <div class="page-content gray-frame alignleft_block full-content-width">
+                            <!--inner title-->
+                            <h1 class="heading h1">{{ page.title }}</h1>
+                            <!--/inner title-->             
+                            {{ content }} 
+                      </div>
+                    </div>
+                    <!-- /content container-->
+
+                    <div class="clear40"></div>
+
+                </div>
+                <!--/page content wrapper-->  
+        </div>
+        <!-- /content container-->
+    
+        <div class="clear20"></div>
+        
+        <!--footer-->
+        <div id="footer_container">
+            <div id="footer" class="center-clear">
+                <ul>
+                    <li><a href="/index.html">Главная</a></li>
+                    <li><a href="/kennel.html">О питомнике</a></li>      
+                    <li><a href="/breed.html">Стандарт породы</a></li>      
+                    <li><a href="/dogs.html">Наши собаки</a></li>      
+                    <li><a href="/puppies.html">Щенки</a></li>      
+                    <li><a href="/contacts.html">Контакты</a></li>   
+                </ul>
+                <div>Copyright 1901-2016 - GALOMRAK</div>
+            </div>
+        </div>
+        <!-- /footer-->
+	
+    </div>        
+</body>
+<!-- /body -->
+
+</html>
